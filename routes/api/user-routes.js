@@ -8,7 +8,7 @@ const {
     deleteUser
 } = require('../../controllers/user-controller');
 
-// Set up Get all and POST at /api/pizzas
+// Set up Get all and POST at /api/users
 router
     .route('/')
     .get(getAllUser)
